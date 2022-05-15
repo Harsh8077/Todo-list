@@ -1,0 +1,49 @@
+
+
+.content{
+  background-image: url('bg-image.jpeg');
+ background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 80%;
+  height: 100vh;
+}
+
+.to-do-heading{
+  text-align: center;
+  font-family: cursive;
+}
+.buttons{
+margin: 40px;
+}
+.task-list{
+  margin: 20px;
+}
+.list-to-do{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#ultasks li.done{
+  color: #6c757d;
+  text-decoration: line-through;
+}
+.Copyright{
+  position:absolute;
+  left: 40%;
+  bottom: 0px;
+  font-size: 0.75rem;
+}
+@media  (max-width:900px){
+  .content{
+    background-image: url('bg-image.jpeg');
+   background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    height: 100vh;
+  }
+  .Copyright{
+    position:absolute;
+    left: 25%;
+    bottom: 0px;
+    font-size: 0.75rem;
+
+}
